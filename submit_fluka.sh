@@ -20,7 +20,7 @@ do
     # executable to be run: modify the executable so the files are copied in the right place
     echo "COMMAND: "${herepos}"/run_fluka_multiple.sh" >> farmrun_fluka_example_${i}.jsub
     echo "MEMORY: 2000 MB" >> farmrun_fluka_example_${i}.jsub
-    echo "OS: centos7" >> farmrun_fluka_example_${i}.jsub
+    echo "OS: centos77" >> farmrun_fluka_example_${i}.jsub
     #this is pointing to the new files that we have just created
     echo "INPUT_FILES: "${herepos}"/fluka_example_"${i}".inp" >> farmrun_fluka_example_${i}.jsub
     if [ ${sub} -eq "1" ] 
